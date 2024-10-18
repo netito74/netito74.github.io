@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta name="author" content="solrac">
+    <meta name="description" content="My Projects TW 2">
+    <meta name="keywords" content="HTML, CSS, JS, Bootstrap">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>My Profile</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./images/codigo.png">
+    <!-- Bootstrap CSS offline -->
+    <!--<link href="./css/bootstrap.min.css" rel="stylesheet">-->
+    <!-- Bootstrap Icons offline -->
+    <!--<link href="./icons/bootstrap-icons.css" rel="stylesheet">-->
+    <Bootstrap CSS online>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+    <Bootstrap Icons online>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- My CSS -->
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbar-toggler"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/codigo.png" width="50" alt="My logo">
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center aling-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#aboutme" aria-current="page">Sobre mí <span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#references">Referencias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactme">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Me -->
+    <section class="myclass aling-items-stretch">
+        <div class="myclass-main d-flex flex-column justify-content-center aling-items-center">
+            <img class="myclass-pic rounded-circle" src="./images/Perfil.jpg" alt="My selfie">
+            <h1>Hola, Soy Ernesto</h1>
+            <h2>Estudiante de Informática 💻</h2>
+        </div>
+        <div class="myclass-label" style="text-align: center;">            
+            <img class="myclass-imagen img-fluid" src="./images/imagen_1.png" alt="think twice code once" style="width: 400px; height: 300px;">
+        </div>        
+    </section>
+
+<!-- About me -->
+<section id="aboutme" class="about-me section-oscura">
+    <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce a Ernesto</h2>
+        
+        <!-- División de texto en dos columnas con títulos -->
+        <div style="display: flex; justify-content: space-between;">
+            
+            <!-- Primera mitad con título -->
+            <div style="width: 48%;">
+                <h3>Educación y Habilidades Técnicas</h3>
+                <p style="text-align: left;">
+                    👨‍🎓 Estudiante de Informática enfocado en el desarrollo de soluciones tecnológicas.<br>
+                    ☕ Java y 🔧 C como lenguajes principales para proyectos de software.<br>
+                    🔋 Programación de microcontroladores (ATmega328P) para aplicaciones embebidas.<br>
+                </p>
+            </div>
+            
+            <!-- Segunda mitad con título -->
+            <div style="width: 48%;">
+                <h3>Proyectos y Desarrollo Personal</h3>
+                <p style="text-align: left;">
+                    🖥️ Desarrollo de interfaces gráficas y sistemas orientados a objetos 🧩.<br>
+                    💡 Experiencia en proyectos con LEDs y pantallas de 7 segmentos.<br>
+                    📚 Comprometido con el aprendizaje continuo y 🚀 la mejora constante.<br>
+                    🌍 Enfocado en crear software útil y eficiente para resolver problemas reales.<br>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Experience -->
+<section class="experiencia section-clara">
+    <div class="container text-center">
+        <div class="row">
+            <!-- Programming -->
+            <div class="experiencia-columna col-12 col-md-4">                    
+                <p class="columna experiencia-title">Programación</p>                    
+                <i class="bi-braces"></i>
+                <p>
+                    Conozco los fundamentos de programación, incluyendo la gestión de memoria, el uso de estructuras de datos y la implementación de lógica para desarrollos eficientes. 
+                </p>
+                <div class="badge-contenedor">                        
+                    <span class="badge bg-primary"> C</span>
+                    <span class="badge bg-primary">Java</span>                        
+                </div>
+            </div>
+            <!-- Design -->
+            <div class="experiencia-columna col-12 col-md-4">                    
+                <p class="columna experiencia-title">Diseño</p>
+                <i class="bi-window-desktop"></i>
+                <p>
+                    Experiencia en diseño de interfaces de usuario (UI) , enfocándome en crear interfaces intuitivas y atractivas. Mis habilidades incluyen el diseño de prototipos interactivos y la mejora continua de usabilidad.
+                </p>
+                <div class="badge-contenedor">                        
+                    <span class="badge bg-primary">...</span>                        
+                    <span class="badge bg-primary">Java</span>
+                    <span class="badge bg-primary">...</span>                        
+                </div>
+            </div>
+            <!-- Management -->
+            <div class="experiencia-columna col-12 col-md-4">
+                <p class="columna experiencia-title">Gestión de Proyectos</p>
+                <i class="bi-person-gear"></i>
+                <p>
+                    Habilidad en la gestión de proyectos utilizando metodologías ágiles como MVC, coordinación de equipos de trabajo y seguimiento de tareas, implemento patrones arquitectónicos como MVC para organizar el desarrollo de proyectos.
+                </p>
+                <div class="badge-contenedor">                        
+                    <span class="badge bg-primary">...</span>                        
+                    <span class="badge bg-primary">MVC</span>
+                    <span class="badge bg-primary">...</span>                        
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="proyectos section-clara d-flex flex-column">
+        <h2 class="seccion-titulo">Mis Proyectos</h2>
+        <h3 class="seccion-descripcion">Algunos de los proyectos grandes realizados.</h3>
+        <!-- gallery --><div class="container text-center proyectos-contenedor">
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+                <img src="./images/Proyecto_1.png" alt="Project 1">
+                <div class="overlay">
+                    <p></p>
+                    <div class="icons-project">
+                        <a href="https://github.com/netito74/Proyecto_peleteria/blob/main/Proyecto_peleteria.c" target="_blank" rel="noopener noreferrer">
+                            <i class="bi-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+                <img src="./images/Proyecto_2.png" alt="Project 2">
+                <div class="overlay">
+                    <p></p>
+                    <div class="icons-project">
+                        <a href="https://github.com/netito74/Algoritmo-de-Dijkstra/blob/main/Proyecto_algoritmo_Dijkstra.c" target="_blank" rel="noopener noreferrer">
+                            <i class="bi-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+                <img src="./images/Proyecto__3.png" alt="Project 3">
+                <div class="overlay">
+                    <p></p>
+                    <div class="icons-project">
+                        <a href="https://github.com/netito74/Arboles_menor_mayor/blob/main/arbol_menor_mayor.cpp" target="_blank" rel="noopener noreferrer">
+                            <i class="bi-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a href="https://github.com/netito74" target="_blank" rel="noopener noreferrer">
+    <button type="button" class="btn btn-info">Más proyectos
+        <i class="bi-arrow-right-circle"></i>
+    </button>
+</a>
+</section>
+
+    <!-- Tips -->
+    <section class="tips justify-content-start">
+        <h2 class="seccion-titulo">Tips</h2>
+        <div class="card">
+            <div class="card-header">
+                Sobre Programación
+            </div>
+            <ul class="list-group list-group-flush">
+                <a href="https://www.tutorialspoint.com/java/java_tutorial.pdf" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Tutorial de Java (PDF)</li>
+                </a>
+                <a href="https://www.learnjavaonline.org/" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Java Online - Aprende Java Interactivo</li>
+                </a>
+                <a href="https://www.youtube.com/watch?v=0uG6Lz8P6N0" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Curso Completo de Java - Desde Cero</li>
+                </a>
+                <a href="https://www.tutorialspoint.com/c_standard_library/c_standard_library.htm" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Guía de Turbo C - Standard Library</li>
+                </a>
+                <a href="https://mariadb.com/kb/en/getting-started-with-mariadb/" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Introducción a MariaDB</li>
+                </a>
+                <a href="https://www.youtube.com/watch?v=4HqGJtL1E-s" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Curso de MariaDB - Desde Cero</li>
+                </a>
+            </ul>
+        </div>
+        <a href="" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-info">Más tips
+                <i class="bi-arrow-right-circle"></i>
+            </button>
+        </a>
+    </section>
+
+    <!-- References -->
+    <section id="references" class="recomendaciones section-clara">
+        <h2 class="seccion-titulo">Recomendaciones</h2>
+        <h3 class="seccion-descripcion">Comentarios de compañeros de trabajo.</h3>
+        <div id="recomendaciones" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#recomendaciones" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#recomendaciones" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#recomendaciones" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container">
+                    <img src="./images/Cortez.jpg" class="recomendacion-imagen rounded-circle" alt="...">
+                    <p class="recomendacion-texto"> Ernesto es una persona comprometida y confiable. Siempre se asegura de cumplir con sus responsabilidades y es alguien en quien puedes confiar para cualquier cosa</p>
+                    <div class="recomendacion-info">
+                        <p class="amigo">Gerado Cortez Ramos</p>
+                        <p class="cargo">Estudiante de Informática</p>
+                    </div>                    
+                </div>
+            </div> 
+            <div class="carousel-item">
+                <div class="container">
+                    <img src="./images/Enrrique.jpg" class="recomendacion-imagen rounded-circle" alt="...">
+                    <p class="recomendacion-texto">Ernesto es muy colaborador y sabe trabajar en equipo. Siempre está dispuesto a apoyar a los demás y crea un ambiente positivo con su actitud</p>
+                    <div class="recomendacion-info">
+                        <p class="amigo">Jose Enrrique González Sanchez</p>
+                        <p class="cargo">Estudiante de Informática</p>
+                    </div>                    
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <img src="./images/Luengas.jpg" class="recomendacion-imagen rounded-circle" alt="...">
+                    <p class="recomendacion-texto"> Ernesto destaca por su dedicación y capacidad para resolver problemas. No se rinde fácilmente y siempre busca la mejor solución a cualquier desafío.</p>
+                    <div class="recomendacion-info">
+                        <p class="amigo">Salvador Sanchez Luengas</p>
+                        <p class="cargo">Estudiante de Informática</p>
+                    </div>                    
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#recomendaciones"  data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#recomendaciones"  data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contactme" class="contact section-oscura">
+        <div class="container">
+            <div class="container text-center rectangulo d-flex justify-content-evenly">
+                <div class="row">
+                    <div class="col-12 col-md-4 seccion-titulo">
+                        No dudes en escribirme! Estoy aquí para lo que necesites
+                    </div>
+                    <div class="col-12 col-md-4 description">
+                        Soy una persona dedicada, con atención a los detalles y siempre buscando mejorar. ¡Sigo adelante!
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a href="mailto:ernestoramos200y@gmail.com">
+                            <button type="button">
+                                Contacto
+                                <i class="bi-envelope-check"></i>
+                            </button>
+                        </a>
+                    </div>                                     
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-oscura d-flex flex-column aling-items-center justify-content-center">
+        <img class="footer-icon" src="./images/codigo.png" alt="Logo profile">
+        <p class="footer-text text-center">
+            "El éxito no se mide por lo que logras, sino por <br>los obstáculos que superas en el camino."
+        </p>
+        <div class="icons-sn d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://www.facebook.com/?locale=es_LA" target="_blank" rel="noopener noreferrer">
+                <i class="bi-facebook"></i>
+            </a>
+            <a href="https://github.com/netito74" target="_blank" rel="noopener noreferrer">
+                <i class="bi-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank" rel="noopener noreferrer">
+                <i class="bi-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/invites/contact/?igsh=11ytww08v5tff&utm_content=joxy6lu" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="mailto:ernestoramos200y@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi-envelope"></i>
+            </a>
+        </div>        
+        <div class="author"> netito74(2024) &#169; </div>
+    </footer>
+
+    <!-- Bootstrap JS offline -->
+    <script src="./js/bootstrap.min.js"></script>    
+    <Bootstrap JS online>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> 
+    <!-- My JS -->
+    <script src="./js/main.js"></script>    
+</body>
+</html>
