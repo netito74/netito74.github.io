@@ -25,7 +25,7 @@ body {
 
 /* Cursor personalizado para todos los enlaces */
 a {
-    cursor: url('/images/cursor-de-mano.png'), auto;
+    cursor: url('/images/cursor-del-raton.png'), auto;
 }
 
 /* Navbar */
