@@ -6,8 +6,13 @@
     --color_4: #FFB9B9;
 }
 
+/* Cursor personalizado para el puntero general (flecha por defecto) */
+body {
+    cursor: url('/images/gato.png'), auto;
+}
+
 .row {
-    cursor: url('/images/arrow2699.png'), auto;
+    cursor: url('/images/cursor-de-mano.png'), auto;
 }
 
 .card {
@@ -16,10 +21,6 @@
 
 .list-group-flush {
     cursor: url('/images/cursor-del-raton.png'), auto;
-}
-
-.container {
-    cursor: url('/images/cursor-de-mano.png'), auto;
 }
 
 /* Cursor personalizado para todos los enlaces */
