@@ -6,6 +6,20 @@
     --color_4: #FFB9B9;
 }
 
+.row {
+    cursor: url('/images/gato.png'), auto;
+}
+
+.card {
+    cursor: url('/images/cursor-de-mano.png'), auto;
+}
+
+/* Agrupación para evitar redundancia */
+.list-group-flush, .container {
+    cursor: url('/images/cursor-del-raton.png'), auto;
+}
+
+
 /* Navbar */
 .navbar {
     padding: 2rem;
