@@ -7,18 +7,25 @@
 }
 
 .row {
-    cursor: url('/images/gato.png'), auto;
+    cursor: url('/images/arrow2699.png'), auto;
 }
 
 .card {
     cursor: url('/images/cursor-de-mano.png'), auto;
 }
 
-/* Agrupación para evitar redundancia */
-.list-group-flush, .container {
+.list-group-flush {
     cursor: url('/images/cursor-del-raton.png'), auto;
 }
 
+.container {
+    cursor: url('/images/cursor-de-mano.png'), auto;
+}
+
+/* Cursor personalizado para todos los enlaces */
+a {
+    cursor: url('/images/cursor-de-mano.png'), auto;
+}
 
 /* Navbar */
 .navbar {
