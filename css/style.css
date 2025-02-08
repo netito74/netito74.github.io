@@ -140,17 +140,18 @@ a {
 }
 
 .proyectos img {
-    height: 100%;
+    height: 300px; /* Altura fija para uniformidad */
     width: 100%;
+    object-fit: cover; /* Mantiene la proporción de la imagen */
     padding: 10px;
     border-radius: 10px;
     display: block;
     transition: all 0.2s ease;
 }
-
 .proyectos-contenedor {
     padding-top: 60px;
     margin-bottom: 40px;
+    max-width: 1200px;
 }
 
 .overlay {
@@ -177,6 +178,10 @@ a {
 
 .proyecto {
     position: relative;
+    height: 100%;
+    background-color: #f5f6f7;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .proyecto:hover img {
@@ -185,6 +190,18 @@ a {
 
 .proyecto:hover .overlay{
     opacity: 1;
+}
+
+.proyectos .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.proyectos .col-12.col-md-6.col-lg-4 {
+    flex: 0 0 calc(50% - 15px);
+    max-width: calc(50% - 15px);
 }
 
 /* Others */
@@ -412,5 +429,16 @@ footer {
     }
     .recomendacion-texto {
         font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .proyectos .col-12.col-md-6.col-lg-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .proyectos img {
+        height: 250px;
     }
 }
