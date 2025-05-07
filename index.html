@@ -296,18 +296,51 @@
     </section>
 
 <!-- Contacto (versión original) -->
-<section id="contact" class="contact section-dark">
+<!-- Contacto -->
+<section id="contact" class="section section-dark">
     <div class="container">
-        <div class="container text-center rectangulo d-flex justify-content-evenly">
+        <h2 class="section-title text-center fade-in">Contáctame</h2>
+        <p class="text-center mb-5">¿Tienes un proyecto en mente? ¡Hablemos!</p>
+        
+        <div class="row justify-content-center fade-in">
+            <div class="col-lg-8">
+                <div class="contact-box">
+                    <form id="contactForm">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <div class="form-group">
+                                    <label for="name">Nombre</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="form-group">
+                                    <label for="email">Correo Electrónico</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group mb-4">
+                            <label for="message">Mensaje</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg">
+                            <i class="bi bi-send me-2"></i>Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <!-- También puedes mantener tu método de contacto original -->
+        <div class="container text-center rectangulo d-flex justify-content-evenly mt-5 fade-in">
             <div class="row">
-                <div class="col-12 col-md-8">
-                    <p>No dudes en escribirme! Estoy aquí para lo que necesites</p>
+                <div class="col-12 col-md-8 d-flex align-items-center justify-content-center">
+                    <p class="mb-0">O escríbeme directamente a mi correo</p>
                 </div>
                 <div class="col-12 col-md-4">
-                    <a href="mailto:ernestoramos200y@gmail.com">
-                        <button type="button" class="btn btn-primary">
-                            Contacto <i class="bi bi-envelope-check ms-2"></i>
-                        </button>
+                    <a href="mailto:ernestoramos200y@gmail.com" class="btn btn-primary btn-lg">
+                        <i class="bi bi-envelope me-2"></i>Email
                     </a>
                 </div>
             </div>

@@ -383,3 +383,80 @@ h1, h2, h3, h4, .navbar-brand {
     display: inline-flex;
     align-items: center;
 }
+
+/* Ajustes para el formulario de contacto (si decides añadirlo) */
+#contactForm {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contactForm .form-group {
+    margin-bottom: 20px;
+}
+
+#contactForm label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+/* Efectos para el navbar cuando tiene la clase scrolled */
+.navbar.scrolled {
+    padding: 10px 0;
+    background-color: rgba(255, 255, 255, 0.98) !important;
+    backdrop-filter: blur(10px);
+}
+
+/* Ajustes para el carrusel de testimonios */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: var(--color-accent);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-size: 60%;
+}
+
+.carousel-indicators button {
+    background-color: var(--color-accent);
+}
+
+/* Efectos para las tarjetas de habilidades */
+.skill-card h3 {
+    margin-bottom: 15px;
+    color: var(--color-primary);
+}
+
+.skill-card p {
+    color: var(--color-text-light);
+    margin-bottom: 20px;
+}
+
+/* Mejoras para el botón de volver arriba */
+.back-to-top {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 576px) {
+    .hero-section {
+        padding: 100px 0 40px;
+    }
+    
+    .hero-img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .rectangulo .row {
+        flex-direction: column;
+    }
+    
+    .rectangulo .col-md-8 {
+        margin-bottom: 15px;
+    }
+}
